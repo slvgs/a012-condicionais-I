@@ -1,5 +1,8 @@
-const num = //seu numero aqui
+const num = 5
+const valor = num/2
 
-if(){
-    console.log("sua mensagem aqui");
+if(valor % 2 == 0){
+    console.log("É PAR");
+}else{
+    console.log("É IMPAR")
 }
